@@ -1,0 +1,61 @@
+
+/* General styles*/
+
+/*style selectors(article, header, footer, .card)*/
+html {
+  font-family: 'Helvetica neue', Arial, 'sans serif';
+  font-size: 10px;
+  background-color: rgb(204, 204, 204);
+}
+body,html {
+    height: 100vh;
+    width: 100vw; 
+  }
+  
+  
+
+  /*main buisness card*/
+  .card {
+    
+    display: flex;
+    flex-direction: column;
+    width: 35em;
+    height: 22em;
+    margin: auto;
+    padding: auto;
+    background-color: blue;
+    border: 0.2em solid black;
+    border-radius: 1.5em;
+  }
+  /*header styles*/
+  .card header{
+    background-color: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
+    border-radius: 1.5em 1.5em 0 0;
+    margin: auto;
+
+  }
+  /*footer styles*/
+  .card footer{
+    background-color: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
+    border-radius: 0 0 1.5em 1.5em;
+    margin: auto;
+  }
+  /*article styles*/
+  .card article {
+    margin: auto;
+    display: inline-flex;
+    background-color: red;
+
+  }
+  .description {
+      max-width: 35em;
+      
+  }
+  .img img {
+    width: auto;
+    height: 22em;
+    max-width: 33em;
+    max-height:  15em;
+    
+
+  }
